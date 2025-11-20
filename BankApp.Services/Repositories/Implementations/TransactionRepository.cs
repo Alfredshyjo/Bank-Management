@@ -187,7 +187,6 @@ namespace BankApp.Services.Repositories.Implementations
 
             try
             {
-                //var account = await _context.Accounts.FindAsync(transactionDto.AccountID);
                 var account = await _context.Accounts
                     .Include(a => a.Customer)
                     .FirstOrDefaultAsync(a => a.AccountID == transactionDto.AccountID);
@@ -198,14 +197,14 @@ namespace BankApp.Services.Repositories.Implementations
                     return response;
                 }
 
-                // VALIDATION: Check if account is active
+               
                 if (!account.IsActive)
                 {
                     response.Errors.Add(new Errors { ErrorCode = "507", ErrorMessage = "Account is inactive" });
                     return response;
                 }
 
-                // VALIDATION: Check if customer is active
+                
                 if (!account.Customer.IsActive)
                 {
                     response.Errors.Add(new Errors { ErrorCode = "508", ErrorMessage = "Customer is inactive" });
@@ -222,34 +221,78 @@ namespace BankApp.Services.Repositories.Implementations
                     }
                 }
 
-                if (transactionDto.TransactionType == TransactionType.Transfer && !transactionDto.RecipientAccountID.HasValue)
-                {
-                    response.Errors.Add(new Errors { ErrorCode = "505", ErrorMessage = "Recipient account required for transfer" });
-                    return response;
-                }
-
-                // VALIDATION: If transfer, check recipient account is active
+                
+                int? recipientAccountId = null;
                 if (transactionDto.TransactionType == TransactionType.Transfer)
                 {
-                    var recipientAccount = await _context.Accounts
-                        .Include(a => a.Customer)
-                        .FirstOrDefaultAsync(a => a.AccountID == transactionDto.RecipientAccountID);
-
-                    if (recipientAccount == null || recipientAccount.IsDeleted)
+                    
+                    if (!string.IsNullOrWhiteSpace(transactionDto.RecipientAccountNumber))
                     {
-                        response.Errors.Add(new Errors { ErrorCode = "509", ErrorMessage = "Recipient account not found" });
-                        return response;
+                        
+                        var recipientAccount = await _context.Accounts
+                            .Include(a => a.Customer)
+                            .FirstOrDefaultAsync(a => a.AccountNumber == transactionDto.RecipientAccountNumber && !a.IsDeleted);
+
+                        if (recipientAccount == null)
+                        {
+                            response.Errors.Add(new Errors { ErrorCode = "509", ErrorMessage = "Recipient account not found" });
+                            return response;
+                        }
+
+                        if (!recipientAccount.IsActive)
+                        {
+                            response.Errors.Add(new Errors { ErrorCode = "510", ErrorMessage = "Recipient account is inactive" });
+                            return response;
+                        }
+
+                        if (!recipientAccount.Customer.IsActive)
+                        {
+                            response.Errors.Add(new Errors { ErrorCode = "511", ErrorMessage = "Recipient customer is inactive" });
+                            return response;
+                        }
+
+                        // Prevent transfer to same account
+                        if (recipientAccount.AccountID == transactionDto.AccountID)
+                        {
+                            response.Errors.Add(new Errors { ErrorCode = "514", ErrorMessage = "Cannot transfer to the same account" });
+                            return response;
+                        }
+
+                        recipientAccountId = recipientAccount.AccountID;
+                        transactionDto.RecipientAccountID = recipientAccountId; // Set the ID for response
                     }
-
-                    if (!recipientAccount.IsActive)
+                    // Check if RecipientAccountID is provided (backward compatibility)
+                    else if (transactionDto.RecipientAccountID.HasValue)
                     {
-                        response.Errors.Add(new Errors { ErrorCode = "510", ErrorMessage = "Recipient account is inactive" });
-                        return response;
+                        var recipientAccount = await _context.Accounts
+                            .Include(a => a.Customer)
+                            .FirstOrDefaultAsync(a => a.AccountID == transactionDto.RecipientAccountID);
+
+                        if (recipientAccount == null || recipientAccount.IsDeleted)
+                        {
+                            response.Errors.Add(new Errors { ErrorCode = "509", ErrorMessage = "Recipient account not found" });
+                            return response;
+                        }
+
+                        if (!recipientAccount.IsActive)
+                        {
+                            response.Errors.Add(new Errors { ErrorCode = "510", ErrorMessage = "Recipient account is inactive" });
+                            return response;
+                        }
+
+                        if (!recipientAccount.Customer.IsActive)
+                        {
+                            response.Errors.Add(new Errors { ErrorCode = "511", ErrorMessage = "Recipient customer is inactive" });
+                            return response;
+                        }
+
+                        recipientAccountId = recipientAccount.AccountID;
+                        transactionDto.RecipientAccountNumber = recipientAccount.AccountNumber; // Set the number for response
                     }
-
-                    if (!recipientAccount.Customer.IsActive)
+                    else
                     {
-                        response.Errors.Add(new Errors { ErrorCode = "511", ErrorMessage = "Recipient customer is inactive" });
+                        // Neither ID nor Number provided
+                        response.Errors.Add(new Errors { ErrorCode = "505", ErrorMessage = "Recipient account required for transfer" });
                         return response;
                     }
                 }
@@ -260,7 +303,7 @@ namespace BankApp.Services.Repositories.Implementations
                     TransactionType = transactionDto.TransactionType,
                     Amount = transactionDto.Amount,
                     Description = transactionDto.Description,
-                    RecipientAccountID = transactionDto.RecipientAccountID,
+                    RecipientAccountID = recipientAccountId, 
                     Status = TransactionStatus.Pending,
                     TransactionDate = DateTime.Now,
                     CreatedBy = createdBy,
@@ -313,7 +356,7 @@ namespace BankApp.Services.Repositories.Implementations
                     return response;
                 }
 
-                // VALIDATION: Check account is still active
+                //Check account is still active
                 if (!transaction.Account.IsActive || !transaction.Account.Customer.IsActive)
                 {
                     response.Errors.Add(new Errors { ErrorCode = "512", ErrorMessage = "Source account or customer is inactive" });

@@ -1,24 +1,28 @@
 ﻿using BankApp.Entity.Dto;
+using BankApp.Entity.Models;
 using BankApp.Services.Repositories.Interfaces;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace BankApp.Api.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class TransactionController : ControllerBase
     {
         private readonly ITransactionRepository _transactionRepository;
+        private readonly ApplicationDbContext _context; 
 
-        public TransactionController(ITransactionRepository transactionRepository)
+        public TransactionController(ITransactionRepository transactionRepository, ApplicationDbContext context)
         {
             _transactionRepository = transactionRepository;
+            _context = context;
         }
 
-       // [Authorize(Roles = "Admin,Manager")]
+        [Authorize(Roles = "Admin,Manager")]
         [HttpGet]
         public async Task<IActionResult> GetAllTransactions()
         {
@@ -29,11 +33,26 @@ namespace BankApp.Api.Controllers
         [HttpGet("account/{accountId}")]
         public async Task<IActionResult> GetTransactionsByAccountId(int accountId)
         {
+            // Get current user's ApplicationUserID from claims
+            var userId = User.FindFirstValue("UserId") ?? User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            // Lookup the account and its owner
+            var account = await _context.Accounts
+                .Include(a => a.Customer)
+                .FirstOrDefaultAsync(a => a.AccountID == accountId);
+
+            if (account == null || account.IsDeleted)
+                return NotFound();
+
+            // IDOR Protection: Only allow access if account owner's ApplicationUserID matches current user
+            if (account.Customer.ApplicationUserID != userId)
+                return Forbid();
+
             var result = await _transactionRepository.GetTransactionsByAccountId(accountId);
             return Ok(result);
         }
 
-        //[Authorize(Roles = "Admin,Manager")]
+        [Authorize(Roles = "Admin,Manager")]
         [HttpGet("pending")]
         public async Task<IActionResult> GetPendingTransactions()
         {
@@ -56,7 +75,7 @@ namespace BankApp.Api.Controllers
             return Ok(result);
         }
 
-        //[Authorize(Roles = "Admin,Manager")]
+        [Authorize(Roles = "Admin,Manager")]
         [HttpPost("approve/{id}")]
         public async Task<IActionResult> ApproveTransaction(int id)
         {
@@ -65,7 +84,7 @@ namespace BankApp.Api.Controllers
             return Ok(result);
         }
 
-       // [Authorize(Roles = "Admin,Manager")]
+        [Authorize(Roles = "Admin,Manager")]
         [HttpPost("reject/{id}")]
         public async Task<IActionResult> RejectTransaction(int id)
         {

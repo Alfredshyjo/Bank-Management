@@ -13,7 +13,7 @@ namespace BankApp.Entity.Dto
         public string FullName { get; set; }
         public List<string> Roles { get; set; }
         public bool MustChangePassword { get; set; }
-
         public string TemporaryPassword { get; set; }
+        public string Token { get; set; }
     }
 }

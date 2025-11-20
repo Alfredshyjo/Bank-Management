@@ -24,31 +24,53 @@ namespace BankApp.Api.Controllers
         [Consumes("multipart/form-data")]
         public async Task<IActionResult> CreateApplication([FromForm] ApplicationDto application, IFormFile? imageFile)
         {
-            if (imageFile != null)
+            try
             {
-                string uniqueFileName = $"{Guid.NewGuid()}_{imageFile.FileName}";
-                var filePath = Path.Combine(_webHost.WebRootPath, "CustomerImages");
-
-                if (!Directory.Exists(filePath))
+                if (imageFile != null)
                 {
-                    Directory.CreateDirectory(filePath);
+                    // Get the web root path
+                    var webRootPath = _webHost.WebRootPath;
+
+                    // If WebRootPath is null (common in API projects), use ContentRootPath
+                    if (string.IsNullOrEmpty(webRootPath))
+                    {
+                        webRootPath = Path.Combine(_webHost.ContentRootPath, "wwwroot");
+                    }
+
+                    string uniqueFileName = $"{Guid.NewGuid()}_{imageFile.FileName}";
+                    var filePath = Path.Combine(webRootPath, "CustomerImages");
+
+                    // Create directory if it doesn't exist
+                    if (!Directory.Exists(filePath))
+                    {
+                        Directory.CreateDirectory(filePath);
+                    }
+
+                    var fullPath = Path.Combine(filePath, uniqueFileName);
+
+                    // Save the file
+                    using (var stream = new FileStream(fullPath, FileMode.Create))
+                    {
+                        await imageFile.CopyToAsync(stream);
+                    }
+
+                    application.CustomerImageURL = "CustomerImages/" + uniqueFileName;
                 }
 
-                var fullPath = Path.Combine(filePath, uniqueFileName);
-
-                using (var stream = new FileStream(fullPath, FileMode.Create))
-                {
-                    await imageFile.CopyToAsync(stream);
-                }
-
-                application.CustomerImageURL = "CustomerImages/" + uniqueFileName;
+                var result = await _applicationRepository.CreateApplication(application);
+                return Ok(result);
             }
-
-            var result = await _applicationRepository.CreateApplication(application);
-            return Ok(result);
+            catch (Exception ex)
+            {
+                return StatusCode(500, new
+                {
+                    error = ex.Message,
+                    stackTrace = ex.StackTrace,
+                    innerException = ex.InnerException?.Message
+                });
+            }
         }
-
-        //[Authorize(Roles = "Admin,Manager")]
+        [Authorize(Roles = "Admin,Manager")]
         [HttpGet]
         public async Task<IActionResult> GetAllApplications()
         {
@@ -56,7 +78,7 @@ namespace BankApp.Api.Controllers
             return Ok(result);
         }
 
-        //  [Authorize(Roles = "Admin,Manager")]
+        [Authorize(Roles = "Admin,Manager")]
         [HttpGet("pending")]
         public async Task<IActionResult> GetPendingApplications()
         {
@@ -64,7 +86,7 @@ namespace BankApp.Api.Controllers
             return Ok(result);
         }
 
-        //  [Authorize(Roles = "Admin,Manager")]
+        [Authorize(Roles = "Admin,Manager")]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetApplicationById(int id)
         {
@@ -81,7 +103,7 @@ namespace BankApp.Api.Controllers
         }
 
 
-        //   [Authorize(Roles = "Admin,Manager")]
+        [Authorize(Roles = "Admin,Manager")]
         [HttpPost("approve/{id}")]
         public async Task<IActionResult> ApproveApplication(int id)
         {
@@ -90,7 +112,7 @@ namespace BankApp.Api.Controllers
             return Ok(result);
         }
 
-        // [Authorize(Roles = "Admin,Manager")]
+        [Authorize(Roles = "Admin,Manager")]
         [HttpPost("reject/{id}")]
         public async Task<IActionResult> RejectApplication(int id, [FromBody] RejectRequest request)
         {

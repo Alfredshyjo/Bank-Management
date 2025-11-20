@@ -1,154 +1,69 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Api\\",
+  "WorkspaceRootPath": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{970AD570-CA44-4DFC-8BE1-A87D4280073F}|..\\BankApp.Services\\BankApp.Services.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.services\\repositories\\implementations\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{970AD570-CA44-4DFC-8BE1-A87D4280073F}|..\\BankApp.Services\\BankApp.Services.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.services\\repositories\\implementations\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{970AD570-CA44-4DFC-8BE1-A87D4280073F}|..\\BankApp.Services\\BankApp.Services.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.services\\repositories\\implementations\\applicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.entity\\enums\\applicationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.entity\\dto\\applicationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{970AD570-CA44-4DFC-8BE1-A87D4280073F}|..\\BankApp.Services\\BankApp.Services.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.services\\repositories\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{970AD570-CA44-4DFC-8BE1-A87D4280073F}|..\\BankApp.Services\\BankApp.Services.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.services\\repositories\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{970AD570-CA44-4DFC-8BE1-A87D4280073F}|..\\BankApp.Services\\BankApp.Services.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.services\\repositories\\interfaces\\iapplicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.entity\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.entity\\dto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.api\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|solutionrelative:controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.api\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|solutionrelative:controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.api\\controllers\\bankaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|c:\\users\\alfred.shyjo\\dotnet\\api project\\bankapp.api\\controllers\\bankaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|solutionrelative:controllers\\bankaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{970AD570-CA44-4DFC-8BE1-A87D4280073F}|..\\BankApp.Services\\BankApp.Services.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.services\\repositories\\implementations\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|c:\\users\\alfred.shyjo\\dotnet\\api project\\bankapp.api\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|solutionrelative:controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.entity\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{970AD570-CA44-4DFC-8BE1-A87D4280073F}|..\\BankApp.Services\\BankApp.Services.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.services\\repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{970AD570-CA44-4DFC-8BE1-A87D4280073F}|..\\BankApp.Services\\BankApp.Services.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.services\\repositories\\implementations\\bankaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{970AD570-CA44-4DFC-8BE1-A87D4280073F}|..\\BankApp.Services\\BankApp.Services.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.services\\repositories\\interfaces\\ibankaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.entity\\dto\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|c:\\users\\alfred.shyjo\\dotnet\\api project\\bankapp.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.entity\\dto\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{970AD570-CA44-4DFC-8BE1-A87D4280073F}|..\\BankApp.Services\\BankApp.Services.csproj|c:\\users\\alfred.shyjo\\dotnet\\api project\\bankapp.services\\repositories\\implementations\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.entity\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\api project\\bankapp.entity\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.entity\\models\\customerapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{970AD570-CA44-4DFC-8BE1-A87D4280073F}|..\\BankApp.Services\\BankApp.Services.csproj|c:\\users\\alfred.shyjo\\dotnet\\api project\\bankapp.services\\repositories\\implementations\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.entity\\models\\accounttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|c:\\users\\alfred.shyjo\\dotnet\\api project\\bankapp.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.api\\handlers\\basicauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|solutionrelative:handlers\\basicauthenticationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{970AD570-CA44-4DFC-8BE1-A87D4280073F}|..\\BankApp.Services\\BankApp.Services.csproj|c:\\users\\alfred.shyjo\\dotnet\\api project\\bankapp.services\\repositories\\implementations\\applicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.api\\bankapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|solutionrelative:bankapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{970AD570-CA44-4DFC-8BE1-A87D4280073F}|..\\BankApp.Services\\BankApp.Services.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.services\\repositories\\interfaces\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{970AD570-CA44-4DFC-8BE1-A87D4280073F}|..\\BankApp.Services\\BankApp.Services.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.services\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{970AD570-CA44-4DFC-8BE1-A87D4280073F}|..\\BankApp.Services\\BankApp.Services.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.services\\bankapp.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Migrations\\20251108142343_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.entity\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.entity\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.entity\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|c:\\users\\alfred.shyjo\\dotnet\\api project\\bankapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.entity\\security\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|c:\\users\\alfred.shyjo\\dotnet\\api project\\bankapp.api\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|solutionrelative:controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.entity\\dto\\transactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|c:\\users\\alfred.shyjo\\dotnet\\api project\\bankapp.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.entity\\dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|c:\\users\\alfred.shyjo\\dotnet\\api project\\bankapp.api\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|solutionrelative:controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.entity\\dto\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{970AD570-CA44-4DFC-8BE1-A87D4280073F}|..\\BankApp.Services\\BankApp.Services.csproj|c:\\users\\alfred.shyjo\\dotnet\\api project\\bankapp.services\\repositories\\implementations\\bankaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.entity\\dto\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\api project\\bankapp.entity\\dto\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.entity\\dto\\errors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{970AD570-CA44-4DFC-8BE1-A87D4280073F}|..\\BankApp.Services\\BankApp.Services.csproj|c:\\users\\alfred.shyjo\\dotnet\\api project\\bankapp.services\\repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.entity\\enums\\transactiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{970AD570-CA44-4DFC-8BE1-A87D4280073F}|..\\BankApp.Services\\BankApp.Services.csproj|c:\\users\\alfred.shyjo\\dotnet\\api project\\bankapp.services\\repositories\\implementations\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.entity\\enums\\transactionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|c:\\users\\alfred.shyjo\\dotnet\\api project\\bankapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E0B5FD5-2CCC-4B09-B194-7254768BEE6E}|BankApp.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\bankapp.entity\\bankapp.entity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4DA394AE-5CEA-4BCC-AC2A-00AE6D706011}|..\\BankApp.Entity\\BankApp.Entity.csproj|c:\\users\\alfred.shyjo\\dotnet\\api project\\bankapp.entity\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -158,604 +73,240 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\Repositories\\Implementations\\EmployeeRepository.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Services\\Repositories\\Implementations\\EmployeeRepository.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\Repositories\\Implementations\\EmployeeRepository.cs",
-              "RelativeToolTip": "..\\BankApp.Services\\Repositories\\Implementations\\EmployeeRepository.cs",
-              "ViewState": "AgIAAAUBAAAAAAAAAAAAABUBAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T13:58:25.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IEmployeeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\Repositories\\Interfaces\\IEmployeeRepository.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Services\\Repositories\\Interfaces\\IEmployeeRepository.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\Repositories\\Interfaces\\IEmployeeRepository.cs",
-              "RelativeToolTip": "..\\BankApp.Services\\Repositories\\Interfaces\\IEmployeeRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T13:57:54.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\Repositories\\Implementations\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Services\\Repositories\\Implementations\\CustomerRepository.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\Repositories\\Implementations\\CustomerRepository.cs",
-              "RelativeToolTip": "..\\BankApp.Services\\Repositories\\Implementations\\CustomerRepository.cs",
-              "ViewState": "AgIAAPgAAAAAAAAAAAAkwA4AAAA5AAAAAAAAAA==",
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Api\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Api\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "Controllers\\TransactionController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAuwDcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T13:54:34.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\Repositories\\Implementations\\ApplicationRepository.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Services\\Repositories\\Implementations\\ApplicationRepository.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\Repositories\\Implementations\\ApplicationRepository.cs",
-              "RelativeToolTip": "..\\BankApp.Services\\Repositories\\Implementations\\ApplicationRepository.cs",
-              "ViewState": "AgIAANUCAAAAAAAAAAAgwAgBAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T14:03:01.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApplicationDto.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Dto\\ApplicationDto.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Dto\\ApplicationDto.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Dto\\ApplicationDto.cs",
-              "RelativeToolTip": "..\\BankApp.Entity\\Dto\\ApplicationDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAIwDYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T13:42:37.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationStatus.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Enums\\ApplicationStatus.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Enums\\ApplicationStatus.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Enums\\ApplicationStatus.cs",
-              "RelativeToolTip": "..\\BankApp.Entity\\Enums\\ApplicationStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T13:27:21.737Z",
+              "WhenOpened": "2025-11-14T04:14:19.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ICustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\Repositories\\Interfaces\\ICustomerRepository.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Services\\Repositories\\Interfaces\\ICustomerRepository.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\Repositories\\Interfaces\\ICustomerRepository.cs",
-              "RelativeToolTip": "..\\BankApp.Services\\Repositories\\Interfaces\\ICustomerRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Api\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Api\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwA8AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T13:53:00.491Z",
+              "WhenOpened": "2025-11-14T04:13:23.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IApplicationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\Repositories\\Interfaces\\IApplicationRepository.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Services\\Repositories\\Interfaces\\IApplicationRepository.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\Repositories\\Interfaces\\IApplicationRepository.cs",
-              "RelativeToolTip": "..\\BankApp.Services\\Repositories\\Interfaces\\IApplicationRepository.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAIwBIAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Entity\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Models\\Account.cs",
+              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Entity\\Models\\Account.cs",
+              "RelativeToolTip": "..\\BankApp.Entity\\Models\\Account.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAUwC4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T14:00:08.592Z",
+              "WhenOpened": "2025-11-19T07:11:41.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BankAccountController.cs",
+              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Api\\Controllers\\BankAccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BankAccountController.cs",
+              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Api\\Controllers\\BankAccountController.cs",
+              "RelativeToolTip": "Controllers\\BankAccountController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAIA0wCQAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T05:08:11.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Api\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Api\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T06:49:04.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Services\\Repositories\\Implementations\\TransactionRepository.cs",
+              "RelativeDocumentMoniker": "..\\BankApp.Services\\Repositories\\Implementations\\TransactionRepository.cs",
+              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Services\\Repositories\\Implementations\\TransactionRepository.cs",
+              "RelativeToolTip": "..\\BankApp.Services\\Repositories\\Implementations\\TransactionRepository.cs",
+              "ViewState": "AgIAAKsBAAAAAAAAAAAuwLkBAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T06:24:03.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Services\\Repositories\\Implementations\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "..\\BankApp.Services\\Repositories\\Implementations\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Services\\Repositories\\Implementations\\CustomerRepository.cs",
+              "RelativeToolTip": "..\\BankApp.Services\\Repositories\\Implementations\\CustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T21:33:26.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Models\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Models\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Models\\ApplicationDbContext.cs",
-              "RelativeToolTip": "..\\BankApp.Entity\\Models\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAM4AAAAAAAAAAADwv+EAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T12:30:41.079Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-12T06:56:27.991Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "CustomerDto.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Dto\\CustomerDto.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Dto\\CustomerDto.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Dto\\CustomerDto.cs",
-              "RelativeToolTip": "..\\BankApp.Entity\\Dto\\CustomerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Api\\Controllers\\TokenController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TokenController.cs",
+              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Api\\Controllers\\TokenController.cs",
+              "RelativeToolTip": "Controllers\\TokenController.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAgwG8AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T13:41:21.315Z",
+              "WhenOpened": "2025-11-12T13:11:58.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationController.cs",
+              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Api\\Controllers\\ApplicationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ApplicationController.cs",
+              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Api\\Controllers\\ApplicationController.cs",
+              "RelativeToolTip": "Controllers\\ApplicationController.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAADwv3IAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T03:54:07.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Services\\Repositories\\Implementations\\ApplicationRepository.cs",
+              "RelativeDocumentMoniker": "..\\BankApp.Services\\Repositories\\Implementations\\ApplicationRepository.cs",
+              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Services\\Repositories\\Implementations\\ApplicationRepository.cs",
+              "RelativeToolTip": "..\\BankApp.Services\\Repositories\\Implementations\\ApplicationRepository.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwBkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T09:44:46.047Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Api\\Controllers\\EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Api\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Api\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Api\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAADwv0QAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T14:12:57.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Api\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Api\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "Controllers\\CustomerController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T14:11:57.155Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ApplicationController.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Api\\Controllers\\ApplicationController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ApplicationController.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Api\\Controllers\\ApplicationController.cs",
-              "RelativeToolTip": "Controllers\\ApplicationController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAYwGoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T14:13:57.61Z",
+              "WhenOpened": "2025-11-12T05:13:46.583Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "TransactionController.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Api\\Controllers\\TransactionController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TransactionController.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Api\\Controllers\\TransactionController.cs",
-              "RelativeToolTip": "Controllers\\TransactionController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwEMAAAAJAAAAAAAAAA==",
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Services\\Repositories\\Implementations\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\BankApp.Services\\Repositories\\Implementations\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Services\\Repositories\\Implementations\\UserRepository.cs",
+              "RelativeToolTip": "..\\BankApp.Services\\Repositories\\Implementations\\UserRepository.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAgwEwAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T14:14:46.489Z",
+              "WhenOpened": "2025-11-13T03:48:02.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BankAccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Services\\Repositories\\Implementations\\BankAccountRepository.cs",
+              "RelativeDocumentMoniker": "..\\BankApp.Services\\Repositories\\Implementations\\BankAccountRepository.cs",
+              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Services\\Repositories\\Implementations\\BankAccountRepository.cs",
+              "RelativeToolTip": "..\\BankApp.Services\\Repositories\\Implementations\\BankAccountRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T05:10:10.311Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Api\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAADwvzYAAAAAAAAAAAAAAA==",
+              "Title": "UserResponse.cs",
+              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Entity\\Dto\\UserResponse.cs",
+              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Dto\\UserResponse.cs",
+              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Entity\\Dto\\UserResponse.cs",
+              "RelativeToolTip": "..\\BankApp.Entity\\Dto\\UserResponse.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T12:29:51.858Z",
+              "WhenOpened": "2025-11-12T13:13:45.531Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "BankAccountController.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Api\\Controllers\\BankAccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BankAccountController.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Api\\Controllers\\BankAccountController.cs",
-              "RelativeToolTip": "Controllers\\BankAccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Services\\Repositories\\Implementations\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\BankApp.Services\\Repositories\\Implementations\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Services\\Repositories\\Implementations\\EmployeeRepository.cs",
+              "RelativeToolTip": "..\\BankApp.Services\\Repositories\\Implementations\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T18:34:16.984Z",
+              "WhenOpened": "2025-11-12T07:51:52.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "TransactionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\Repositories\\Implementations\\TransactionRepository.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Services\\Repositories\\Implementations\\TransactionRepository.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\Repositories\\Implementations\\TransactionRepository.cs",
-              "RelativeToolTip": "..\\BankApp.Services\\Repositories\\Implementations\\TransactionRepository.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwJoBAAABAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAC8AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T14:04:56.523Z",
+              "WhenOpened": "2025-11-12T03:51:09.018Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Models\\Customer.cs",
-              "RelativeToolTip": "..\\BankApp.Entity\\Models\\Customer.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAUwCIAAAASAAAAAAAAAA==",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Entity\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\Api project\\BankApp.Entity\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\BankApp.Entity\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAcwHAAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T12:38:04.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\Repositories\\Implementations\\UserRepository.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Services\\Repositories\\Implementations\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\Repositories\\Implementations\\UserRepository.cs",
-              "RelativeToolTip": "..\\BankApp.Services\\Repositories\\Implementations\\UserRepository.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAmwDMAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T13:51:38.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "BankAccountRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\Repositories\\Implementations\\BankAccountRepository.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Services\\Repositories\\Implementations\\BankAccountRepository.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\Repositories\\Implementations\\BankAccountRepository.cs",
-              "RelativeToolTip": "..\\BankApp.Services\\Repositories\\Implementations\\BankAccountRepository.cs",
-              "ViewState": "AgIAAMoAAAAAAAAAAAAAAM4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T17:57:55.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IBankAccountRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\Repositories\\Interfaces\\IBankAccountRepository.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Services\\Repositories\\Interfaces\\IBankAccountRepository.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\Repositories\\Interfaces\\IBankAccountRepository.cs",
-              "RelativeToolTip": "..\\BankApp.Services\\Repositories\\Interfaces\\IBankAccountRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T17:58:40.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "AccountDto.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Dto\\AccountDto.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Dto\\AccountDto.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Dto\\AccountDto.cs",
-              "RelativeToolTip": "..\\BankApp.Entity\\Dto\\AccountDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T13:44:39.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Account.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Models\\Account.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Models\\Account.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Models\\Account.cs",
-              "RelativeToolTip": "..\\BankApp.Entity\\Models\\Account.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T13:07:25.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Api\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Api\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T14:09:44.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UserResponse.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Dto\\UserResponse.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Dto\\UserResponse.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Dto\\UserResponse.cs",
-              "RelativeToolTip": "..\\BankApp.Entity\\Dto\\UserResponse.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T13:38:08.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CustomerApplication.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Models\\CustomerApplication.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Models\\CustomerApplication.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Models\\CustomerApplication.cs",
-              "RelativeToolTip": "..\\BankApp.Entity\\Models\\CustomerApplication.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAUwDgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T12:59:03.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "AccountType.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Models\\AccountType.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Models\\AccountType.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Models\\AccountType.cs",
-              "RelativeToolTip": "..\\BankApp.Entity\\Models\\AccountType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T13:26:47.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "BankApp.Api",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Api\\BankApp.Api.csproj",
-              "RelativeDocumentMoniker": "BankApp.Api.csproj",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Api\\BankApp.Api.csproj",
-              "RelativeToolTip": "BankApp.Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-08T12:10:31.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "BasicAuthenticationHandler.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Api\\Handlers\\BasicAuthenticationHandler.cs",
-              "RelativeDocumentMoniker": "Handlers\\BasicAuthenticationHandler.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Api\\Handlers\\BasicAuthenticationHandler.cs",
-              "RelativeToolTip": "Handlers\\BasicAuthenticationHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T04:00:00.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ITransactionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\Repositories\\Interfaces\\ITransactionRepository.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Services\\Repositories\\Interfaces\\ITransactionRepository.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\Repositories\\Interfaces\\ITransactionRepository.cs",
-              "RelativeToolTip": "..\\BankApp.Services\\Repositories\\Interfaces\\ITransactionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T14:04:24.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\Repositories\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Services\\Repositories\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\Repositories\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "..\\BankApp.Services\\Repositories\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T13:51:04.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "20251108142343_first.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Migrations\\20251108142343_first.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Migrations\\20251108142343_first.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Migrations\\20251108142343_first.cs",
-              "RelativeToolTip": "..\\BankApp.Entity\\Migrations\\20251108142343_first.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T14:23:44.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Models\\Employee.cs",
-              "RelativeToolTip": "..\\BankApp.Entity\\Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T12:56:16.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "BankApp.Services",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\BankApp.Services.csproj",
-              "RelativeDocumentMoniker": "..\\BankApp.Services\\BankApp.Services.csproj",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Services\\BankApp.Services.csproj",
-              "RelativeToolTip": "..\\BankApp.Services\\BankApp.Services.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-08T12:11:00.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Models\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Models\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Models\\BaseEntity.cs",
-              "RelativeToolTip": "..\\BankApp.Entity\\Models\\BaseEntity.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBoAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T12:48:06.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Transaction.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Models\\Transaction.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Models\\Transaction.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Models\\Transaction.cs",
-              "RelativeToolTip": "..\\BankApp.Entity\\Models\\Transaction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T13:10:10.682Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Api\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-08T14:06:39.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Security\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Security\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Security\\ApplicationUser.cs",
-              "RelativeToolTip": "..\\BankApp.Entity\\Security\\ApplicationUser.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T12:14:48.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "TransactionDto.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Dto\\TransactionDto.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Dto\\TransactionDto.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Dto\\TransactionDto.cs",
-              "RelativeToolTip": "..\\BankApp.Entity\\Dto\\TransactionDto.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA3wCEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T13:43:59.584Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "EmployeeDto.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Dto\\EmployeeDto.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Dto\\EmployeeDto.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Dto\\EmployeeDto.cs",
-              "RelativeToolTip": "..\\BankApp.Entity\\Dto\\EmployeeDto.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T13:41:49.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "UserRequest.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Dto\\UserRequest.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Dto\\UserRequest.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Dto\\UserRequest.cs",
-              "RelativeToolTip": "..\\BankApp.Entity\\Dto\\UserRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T13:37:47.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Result.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Dto\\Result.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Dto\\Result.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Dto\\Result.cs",
-              "RelativeToolTip": "..\\BankApp.Entity\\Dto\\Result.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T13:36:31.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Errors.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Dto\\Errors.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Dto\\Errors.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Dto\\Errors.cs",
-              "RelativeToolTip": "..\\BankApp.Entity\\Dto\\Errors.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T13:32:08.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "TransactionType.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Enums\\TransactionType.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Enums\\TransactionType.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Enums\\TransactionType.cs",
-              "RelativeToolTip": "..\\BankApp.Entity\\Enums\\TransactionType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T13:22:41.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "TransactionStatus.cs",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Enums\\TransactionStatus.cs",
-              "RelativeDocumentMoniker": "..\\BankApp.Entity\\Enums\\TransactionStatus.cs",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\Enums\\TransactionStatus.cs",
-              "RelativeToolTip": "..\\BankApp.Entity\\Enums\\TransactionStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T13:24:43.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "BankApp.Entity",
-              "DocumentMoniker": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\BankApp.Entity.csproj",
-              "RelativeDocumentMoniker": "..\\BankApp.Entity\\BankApp.Entity.csproj",
-              "ToolTip": "C:\\Users\\alfred.shyjo\\dotnet\\BankApp.Entity\\BankApp.Entity.csproj",
-              "RelativeToolTip": "..\\BankApp.Entity\\BankApp.Entity.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-08T12:12:23.96Z",
+              "WhenOpened": "2025-11-12T05:12:08.341Z",
               "EditorCaption": ""
             }
           ]

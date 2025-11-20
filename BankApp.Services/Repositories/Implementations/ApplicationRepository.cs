@@ -26,7 +26,7 @@ namespace BankApp.Services.Repositories.Implementations
             try
             {
                 var applications = await _context.CustomerApplications
-                    .Where(a => !a.IsDeleted)
+                   //s .Where(a => !a.IsDeleted)
                     .Select(a => new ApplicationDto
                     {
                         ApplicationID = a.ApplicationID,
@@ -201,7 +201,7 @@ namespace BankApp.Services.Repositories.Implementations
                     return response;
                 }
 
-                // VALIDATION 3: Check if PAN already exists
+                // Check if PAN already exists
                 var panExists = await _context.Customers
                     .AnyAsync(c => c.PAN == applicationDto.PAN && !c.IsDeleted);
 
@@ -270,7 +270,7 @@ namespace BankApp.Services.Repositories.Implementations
 
             try
             {
-                // Validate that ID in route matches ID in DTO
+                
                 if (id != applicationDto.ApplicationID)
                 {
                     response.Errors.Add(new Errors
@@ -281,7 +281,7 @@ namespace BankApp.Services.Repositories.Implementations
                     return response;
                 }
 
-                // Find the application
+                
                 var application = await _context.CustomerApplications.FindAsync(id);
 
                 if (application == null || application.IsDeleted)
@@ -294,7 +294,7 @@ namespace BankApp.Services.Repositories.Implementations
                     return response;
                 }
 
-                // Only allow updates for Pending applications
+                
                 if (application.Status != ApplicationStatus.Pending)
                 {
                     response.Errors.Add(new Errors
@@ -305,7 +305,7 @@ namespace BankApp.Services.Repositories.Implementations
                     return response;
                 }
 
-                // Validate uniqueness of Mobile, Aadhar, PAN (excluding current application)
+               
                 var mobileExists = await _context.Customers
                     .AnyAsync(c => c.MobileNumber == applicationDto.MobileNumber && !c.IsDeleted);
 
@@ -382,7 +382,7 @@ namespace BankApp.Services.Repositories.Implementations
                 application.PAN = applicationDto.PAN;
                 application.AccountTypeID = applicationDto.AccountTypeID;
 
-                // Update image URL only if provided
+                
                 if (!string.IsNullOrEmpty(applicationDto.CustomerImageURL))
                 {
                     application.CustomerImageURL = applicationDto.CustomerImageURL;
@@ -617,13 +617,13 @@ namespace BankApp.Services.Repositories.Implementations
 
 
 
-        private string GenerateRandomPassword()
-        {
-            var chars = "ABCDEFGHJKLMNOPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz0123456789!@#$";
-            var random = new Random();
-            return new string(Enumerable.Repeat(chars, 12)
-                .Select(s => s[random.Next(s.Length)]).ToArray());
-        }
+        //private string GenerateRandomPassword()
+        //{
+        //    var chars = "ABCDEFGHJKLMNOPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz0123456789!@#$";
+        //    var random = new Random();
+        //    return new string(Enumerable.Repeat(chars, 12)
+        //        .Select(s => s[random.Next(s.Length)]).ToArray());
+        //}
 
         public async Task<Result<bool>> RejectApplication(int applicationId, string rejectedBy, string reason)
 
@@ -740,11 +740,5 @@ namespace BankApp.Services.Repositories.Implementations
             return response;
 
         }
-
-
-
-
-
     }
-
 }
